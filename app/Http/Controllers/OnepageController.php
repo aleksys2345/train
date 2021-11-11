@@ -34,7 +34,7 @@ class OnepageController extends Controller
           //dd(json_encode($result->products[0]));
 
         $fio=(explode(" ", $req->fio,));
-dd($fio[0],$fio[1],$fio[2]);
+//dd($fio[0],$fio[1],$fio[2]);
      $client = new Client();
       $res = $client->request('POST', 'https://superposuda.retailcrm.ru/api/v5/orders/create', [
 
